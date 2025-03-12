@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Found</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <h1>404 Page Not Found</h1>
+    <!-- <p>The requested page was not found. Just gimme a minute I'll make more stuff for the site I promise! :D </p> -->
+    
+  <script>
+            dice = Math.floor(Math.random() * 8);
+            let List = [ "You got Hacked! Shouldn't have poked around!", "Ordering Pizza with your credit card...", "Downloading a Car! {progress [========> ]100%}", "Despite everything, it's still you.", "Could you go to the store and get me more chicken nuggies?", "Cover up your Camera! I can see you! >:O ", "Mess with the best, die like the rest!" ];
+            if (dice == 7){
+              window.location.href = "https://astridlockhart.neocities.org/content/media/howcanyoutwolivelikethis";
+            }
+            
+            else{              
+              alert(List[dice]); 
+              window.location.href = "https://astridlockhart.neocities.org/"
+              }
+              
+            
+    </script>
+  </body> <!-- Nobody got hacked I'm just being silly! -->
+</html>
+<!-- This is from my neocities website. It's the 404 page and I dicided that it would be silly to add some joke alerts and then redirect to the main page or a page that is
+in IT crowd joke. -->
